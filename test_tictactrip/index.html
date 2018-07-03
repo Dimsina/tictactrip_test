@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tictactrip_test</title>
+    <link type="text/css" rel="stylesheet" href="train_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+</head>
+<body>
+<header class="container-fluid">
+        <ul class="nav-pills nav_back">
+            <div class="container">
+                <li class="nav-item logo_trainline col-1"></li>
+                <li class="nav-item logo_trainline"><img src="images/trainline-logo.svg" alt="icone_trainline"></li>
+                <li class="nav-item logo_trainline col-3"></li>
+                <li class="nav-item signs col-2">Créer un compte</li>
+                <li class="nav-item signs col-2">Se connecter</li>
+                <li class="nav-item hoover" id="aide">AIDE</li>
+                <li class="nav_item_border "><img src="images/fr-3f3d5b0b269d11f3a65fe5109e0ac701.svg" alt="french flag"></li>
+                <li class="nav_item_border">EUR</li>
+            </div>
+        </ul>
+</header>
+<content>
+    <div class="container">
+        <h1 class="home_title">Réservez vos billets de train et de bus <br> En France et en Europe</h1>
+        <h2 class="home_subtitle">Voyagez avec Trainline, leader indépendant de la vente de billets et de bus en Europe.</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+    <!--    Left panel   -->
+            <div class="split_panel margin_top">
+                <h4 class="panel_title">Quel et votre trajet&nbsp;?</h4>
+                <form>
+                    <div class="list-group">
+                        <div class="search">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><img src="images/depart.svg" alt="logo"></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Saisissez votre gare de départ...">
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><img src="images/arrivée.svg" alt="logo"></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Saisissez votre gare d'arrivée...">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form>
+                    <div class="list-group">
+                        <div class="search">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><img src="images/calendar-outward.svg" alt="logo"></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Aller">
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><img src="images/calendar-inward.svg" alt="logo"></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Retour">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form class="margin_bottom">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><img src="images/passenger.svg " alt="logo"></span>
+                        </div>
+                        <input type="text" class="form-control" id="black" aria-label="Amount (to the nearest dollar)" placeholder="1 Adulte (26 - 59)">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><img class="plus" src="images/plus.svg" alt="logo">  </span>
+                        </div>
+                    </div>
+                </form>
+                <ul class="display">
+                    <li><a href="#" class="link">Utiliser un code de réduction</a></li>
+                    <li id="btn_search">Rechercher</li>
+                </ul>
+            </div>
+<!--     right panel      -->
+            <div class="split_panel_right margin_top">
+                <div class="landing-panel__header">
+                    <h4 class="panel_title">Les petits plus de Trainline</h4>
+                </div>
+                <div class="landing-panel__content">
+                    <ul class="ul">
+                        <li class="landing_list">
+                            <span class="blue_icon"><img src="images/icon-tag-white.svg" alt="icon_tag"></span>
+                            <div class="padding_left">
+                                <h5 class="panel-content_subtitle">Vos billets au meilleur prix</h5>
+                                <p>Achetez vos billets aux prix fixés par les transporteurs, sans frais supplémentaires.</p>
+                            </div>
+                        </li>
+                        <li class="landing_list">
+                            <span class="blue_icon"><img src="images/icon-loyalty-card-white.svg" alt="icon_loyalty"></span>
+                            <div class="padding_left">
+                                <h5 class="panel-content_subtitle">Cartes de réduction</h5>
+                            <p>Elles sont toutes acceptées, comme vos cartes de fidélité</p>
+                            </div>
+                        </li>
+                        <li class="landing_list">
+                            <span class="blue_icon"><img src="images/icon-payment-white.svg" alt="icon_payment"></span>
+                            <div class="padding_left">
+                                <h5 class="panel-content_subtitle">Payez en toute sécurité</h5>
+                                <p>CB, Amex, PAypal, Chèques-Vacances ANCV: c'est vous qui voyez.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="hr">
+                        <span> Distributeur agrée</span>
+                    </div>
+                    <div class="landing-panel__footer">
+                        <div class="carrier">
+                            <div class="logo1"></div>
+                        </div>
+                        <div class="carrier">
+                            <div class="logo2"></div>
+                        </div>
+                        <div class="carrier">
+                            <div class="logo3"></div>
+                        </div>
+                        <div class="carrier">
+                            <div class="logo4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</content>
+<div class="margin_top"></div>
+<div class="margin_bottom"></div>
+<section>
+    <div >
+        <div class="block">
+            <h3>Ils nous font confiance. Nous vendons leurs billets.</h3>
+        </div>
+    </div>
+</section>
+<footer class="block_white">
+    <div class="block">
+        <div class="block baby_block">
+            <div class="landing-panel__footer">
+                <div class="container" id="cont_margin">
+                    <div class="row">
+                        <div class="col-sm-1 car">
+                            <div class="logo1_2"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo2_2"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo5"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo3_2"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo4_2"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo6"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo7"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1 car">
+                            <div class="logo8"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo9"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo10"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo11"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo12"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo13"></div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 car">
+                            <div class="logo14"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</html>
